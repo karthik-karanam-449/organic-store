@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(223, 65, 118);
+}
+.bgimg{
+    background-image: url(./cattle.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.hpart h1{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+.hpart btn{
+    font-weight: bold;
+}
+/* about section */
+.acontent p{
+    color: green;
+    margin-top: 3%;
+}
+.acontent{
+    color: green;
+    margin-top: 3%;
+    line-height: 30px;
+}
+/* products */
+.card-img-top{
+    width: 70%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color: #e91e63;
+}
+.card-text{
+    color: green;
+    font-weight: bold;
+}
+/* payment */
+#basic-addon1{
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+/* contact */
+.form-label{
+    color: #e91e63;
+    font-weight: bold;
+}
+.footer{
+    background-color: #e91e63;
+}
+.fhead{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline 4px solid gold;
+}
+.fa-brands{
+    color: white;
+    font-size: 25px;
+    margin: 1%;
+}
+.fa-brands:hover{
+    color: greenyellow;
+    font-size: 32px;
+    cursor: pointer;
+}
